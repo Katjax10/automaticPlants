@@ -1,0 +1,58 @@
+body {
+    margin:30px 50px;
+}
+.layout {
+   border-bottom: 1px gray solid;
+    margin-right: 146px;
+}
+.mojito {
+    height:69px;
+    width: inherit;
+}
+.myName {
+    color: #068F26;
+    font-family: 'Allura';
+    font-size: 50px;
+}
+
+.dates {
+    height: 20px;
+    font-family: 'Lato';
+    font-size:20px;
+    padding: 10px;
+    margin-top:10px;
+    margin-bottom:20px;
+}
+
+.infoButtons a
+{
+    display: inline-block;
+    height: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.status {
+    margin-top:20px;
+}
+
+button {
+    height: 40px;
+    margin-left: 20px;
+    border-radius: 5px 5px;
+    font-size:18px;
+    font-family: 'BioRhyme';
+}
+
+.waterOn {
+    background-color: darkseagreen;
+}
+.waterOff{
+    background-color: #FF4E53;
+}
+
+.status button {
+    height: 40px;
+    border-radius: 10px;
+    margin-top:10px;
+}
+

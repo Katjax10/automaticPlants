@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+  <title>{{ title }}</title>
+  <link rel="stylesheet" href="./plants.css">
+  <link href="https://fonts.googleapis.com/css?family=Allura" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=BioRhyme" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+</head>
+
+<body>
+  <div class="layout">
+    <img src="./images/mojito.jpg" class="mojito"><span class="myName">KatJax Plants</span>
+  </div>
+<div class="dates">Today's Date: {{date}}</div>
+<div class="dates">Time: {{ time }}</div>
+<div class="dates"> {{ text }} </div>
+<div class="infoButtons">
+  <a href="/auto/water/ON"><button class="waterOn">Auto Water On</button></a>
+  <a href="/auto/water/OFF"><button class="waterOff">Auto Water Off</button></a>
+</div>
+<div class="status">
+  <a href="/sensor"><button class="soilStatus">Check Soil Status</button></a>
+  <a href="/water"><button class="waterOnce">Water Once</button></a>
+  <a href="/last_watered"><button class="checkLast">Check Time Last Watered</button></a>
+</div>
+</body>
+</html>
